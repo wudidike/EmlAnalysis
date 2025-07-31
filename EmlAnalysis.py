@@ -551,7 +551,7 @@ class 恶意邮件分析器:
 if __name__ == "__main__":
     # 检查命令行参数
     if len(sys.argv) < 2:
-        print("使用方法: python 邮件分析工具.py <邮件文件路径>")
+        print("使用方法: python EmlAnalysis.py <邮件文件路径>")
         sys.exit(1)
     
     邮件路径 = sys.argv[1]
